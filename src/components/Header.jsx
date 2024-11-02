@@ -31,7 +31,7 @@ export default function Header({ updateEmployees, employees }) {
           </form>
         </div>
         <div className="profile">
-          <img src="../public/4.jpg" alt="Profile" />
+          <img src="/4.jpg" alt="Profile" />
           <p>
             Alex Made <i className="bi bi-chevron-down"></i>
           </p>
