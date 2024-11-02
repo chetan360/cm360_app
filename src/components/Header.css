@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchbox {
+  border: 2px solid #a29faa;
+  border-radius: 10px;
+  height: 30px;
+  overflow: hidden;
+  padding: 5px;
+  width: 400px;
+  height: auto;
+  margin: 40px;
+  position: relative;
+}
+
+.searchbox button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.searchbox input {
+  position: absolute;
+  border: none;
+  outline: none !important;
+  background: transparent !important;
+  color: #a29faa;
+  padding-left: 20px;
+}
+
+.searchbox i {
+  color: #a29faa !important;
+}
+
+.profile {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin: 40px;
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.profile p {
+  margin-top: 10px;
+  color: #575757;
+}
+
+.profile i {
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px;
+}
+
+.nav .links {
+  display: flex;
+}
+
+.links a {
+  text-decoration: none;
+  background: transparent;
+  color: #a29faa;
+  cursor: pointer;
+  padding: 5px 30px;
+  border-radius: 25px;
+  margin-left: 10px;
+}
+
+.links a.active {
+  background-color: #7b1fa2;
+  color: #fff;
+}
